@@ -9,4 +9,4 @@ matrix:
       jdk: oraclejd11
       before_install:
       - cd web
-      - sudo npm install
+      - npm install
