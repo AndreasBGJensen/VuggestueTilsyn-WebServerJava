@@ -7,4 +7,6 @@ matrix:
 
     - language: java
       jdk: oraclejd11
-      before_install: cd web && sudo npm install
+      before_install:
+      - cd web
+      - sudo npm install
