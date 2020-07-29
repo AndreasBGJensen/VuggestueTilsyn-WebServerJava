@@ -7,6 +7,4 @@ matrix:
 
     - language: java
       jdk: oraclejd11
-      before_install:
-      - cd web
-      - npm install
+
