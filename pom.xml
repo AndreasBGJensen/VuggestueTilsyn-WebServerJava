@@ -57,6 +57,7 @@
                                     <workingDirectory>web</workingDirectory>
                                     <executable>npm</executable>
                                     <arguments>
+                                        <argument>install</argument>
                                         <argument>run</argument>
                                         <argument>build</argument>
                                     </arguments>
