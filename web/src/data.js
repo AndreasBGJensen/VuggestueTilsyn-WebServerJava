@@ -1,0 +1,59 @@
+
+var data = [
+    {
+        "name":"7Springeren",
+        "venteliste":23,
+        "homepage":"http://amagerhus.kbhbarn.kk.dk/FrontEnd.aspx?id=19484622",
+        "periodiskTilsyn":[
+            {
+                "første":[
+                    {
+                        "InklussionOgFællesskab":[
+                            {
+                                "indsats":"Tilpasning Af Indsats",
+                                "begrundelse":"ASLKdnas Asmdælamsldmwqa asældmasæmdæasm asdmasælmælamsdæm sadmaælsmdæasmdæ saædmælasmdælas",
+                                "anbefaling":"Dette er anbefalingen"
+                            }
+                        ],
+                        "SocialeRelationer":[
+                            {
+                                "indsats":"Tilpasning Af Indsats",
+                                "begrundelse":"ASLKdnas Asmdælamsldmwqa asældmasæmdæasm asdmasælmælamsdæm sadmaælsmdæasmdæ saædmælasmdælas",
+                                "anbefaling":"Dette er anbefalingen"
+                            }
+                        ],
+                        "Sprogindsatsen":[
+                            {
+                                "indsats":"Tilpasning Af Indsats",
+                                "begrundelse":"ASLKdnas Asmdælamsldmwqa asældmasæmdæasm asdmasælmælamsdæm sadmaælsmdæasmdæ saædmælasmdælas",
+                                "anbefaling":"Dette er anbefalingen"
+                            }
+                        ],
+                        "Forældresamarbejde":[
+                            {
+                                "indsats":"Tilpasning Af Indsats",
+                                "begrundelse":"ASLKdnas Asmdælamsldmwqa asældmasæmdæasm asdmasælmælamsdæm sadmaælsmdæasmdæ saædmælasmdælas",
+                                "anbefaling":"Dette er anbefalingen"
+                            }
+                        ],
+                        "SammenhængOgOvergange":[
+                            {
+                                "indsats":"Tilpasning Af Indsats",
+                                "begrundelse":"ASLKdnas Asmdælamsldmwqa asældmasæmdæasm asdmasælmælamsdæm sadmaælsmdæasmdæ saædmælasmdælas",
+                                "anbefaling":"Dette er anbefalingen"
+                            }
+                        ],
+                        "KravOmReflektion":[
+                            {
+                                "indsats":"vedligeholdelse Af Indsats",
+                                "begrundelse":"ASLKdnas Asmdælamsldmwqa asældmasæmdæasm asdmasælmælamsdæm sadmaælsmdæasmdæ saædmælasmdælas",
+                                "anbefaling":"Dette er anbefalingen"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+];
+
