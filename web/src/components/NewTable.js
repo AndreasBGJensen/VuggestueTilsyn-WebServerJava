@@ -69,11 +69,16 @@ function Row(props) {
 
 
     const onClickRandomButton = (anbefaling, begrundelse) => {
-        setAnbefaling(anbefaling.concat(anbefaling));
-        setBegrundelse(begrundelse.concat(begrundelse));
+
+        if(!open){
+            setAnbefaling(anbefaling);
+            setBegrundelse(begrundelse);
+            console.log(anbefaling);
+            console.log(begrundelse);
+        }
         setOpen(!open);
-        console.log(anbefaling);
-        console.log(begrundelse);
+
+        console.log(open);
 
     };
 
@@ -97,18 +102,17 @@ function Row(props) {
                     </IconButton>
                 </TableCell>
                 <TableCell align="right">
-                    <IconButton aria-label="expand row" size="small" onClick={() => setOpen(!open)}>
+                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.InklussionOgFællesskab.anbefaling,row.periodiskTilsyn.foerste.InklussionOgFællesskab.begrundelse)}>
                         {<h1>{row.periodiskTilsyn.foerste.InklussionOgFællesskab.indsats}</h1>}
                         </IconButton>
                 </TableCell>
                 <TableCell align="right">
-                    <IconButton aria-label="expand row" size="small" onClick={() => setOpen(!open)}>
+                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.SocialeRelationer.anbefaling,row.periodiskTilsyn.foerste.SocialeRelationer.begrundelse)}>
                         {<h1>{row.periodiskTilsyn.foerste.SocialeRelationer.indsats}</h1>}
                     </IconButton>
                 </TableCell>
                 <TableCell align="right">
-                    <IconButton aria-label="expand row" size="small" onClick={() => setOpen(!open)
-                    }>
+                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.Forældresamarbejde.anbefaling,row.periodiskTilsyn.foerste.Forældresamarbejde.begrundelse)}>
                         {<h1>{row.periodiskTilsyn.foerste.Forældresamarbejde.indsats}</h1>}
                     </IconButton>
                 </TableCell>
@@ -119,7 +123,7 @@ function Row(props) {
                 </TableCell>
                 <TableCell align="right">
                     <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.KravOmReflektion.anbefaling,row.periodiskTilsyn.foerste.KravOmReflektion.begrundelse)}>
-                        {<h1>{row.periodiskTilsyn.foerste.KravOmReflektion.indsats}</h1>}
+                        <h1>{row.periodiskTilsyn.foerste.KravOmReflektion.indsats}</h1>
                     </IconButton>
                 </TableCell>
             </TableRow>
@@ -145,7 +149,9 @@ function Row(props) {
                                             <TableCell component="th" scope="row">
                                                 {anbefaling}
                                             </TableCell>
-                                            <TableCell>{begrundelse}</TableCell>
+                                            <TableCell>
+                                                {begrundelse}
+                                            </TableCell>
 
                                         </TableRow>
                                 </TableBody>
