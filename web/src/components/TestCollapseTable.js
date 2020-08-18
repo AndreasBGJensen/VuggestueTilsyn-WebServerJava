@@ -47,7 +47,7 @@ function Row(props) {
             <TableRow className={classes.root}>
                 <TableCell>
                     <IconButton aria-label="expand row" size="small" onClick={() => setOpen(!open)}>
-                        {open ? <h1>sadasdasd</h1> : <h1>sadasdasd</h1>}
+                        {open ? null : null}
                     </IconButton>
                 </TableCell>
                 <TableCell component="th" scope="row">

@@ -6,6 +6,7 @@ import Grid from "@material-ui/core/Grid";
 import makeStyles from "@material-ui/core/styles/makeStyles";
 import ContentTable from "../ContentTable";
 import TestCollapseTable from "../TestCollapseTable";
+import NewTable from "../NewTable";
 
 
 
@@ -42,7 +43,7 @@ function WelcomePage() {
                             <ContentTable/>
                         </Grid>
                         <Grid item xs={8} className={classes.centerGrid}>
-                            <TestCollapseTable/>
+                            <NewTable/>
                         </Grid>
                         <Grid item className={classes.leftNRightGrid} xs={2}>
                             <h2>sdfsdfsdf</h2>
