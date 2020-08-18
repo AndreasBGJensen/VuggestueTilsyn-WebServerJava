@@ -53,6 +53,60 @@
       }
 
 
+  },
+  {
+    "name":"Klaphatten",
+    "venteliste":23,
+    "homepage":"http://amagerhus.kbhbarn.kk.dk/FrontEnd.aspx?id=19484622",
+    "periodiskTilsyn":
+    {
+      "foerste":      {
+        "InklussionOgFællesskab":
+        {
+          "indsats":"Tilpasning Af Indsats",
+          "begrundelse":"Klaphat Asmdælamsldmwqa asældmasæmdæasm asdmasælmælamsdæm sadmaælsmdæasmdæ saædmælasmdælas",
+          "anbefaling":"Dette er anbefalingen"
+        }
+      ,
+        "SocialeRelationer":
+        {
+          "indsats":"Tilpasning Af Indsats",
+          "begrundelse":"Klaphat Asmdælamsldmwqa asældmasæmdæasm asdmasælmælamsdæm sadmaælsmdæasmdæ saædmælasmdælas",
+          "anbefaling":"Klaphat anbefalingen"
+        },
+        "Sprogindsatsen":
+        {
+          "indsats":"Tilpasning Af Indsats",
+          "begrundelse":"ASLKdnas Asmdælamsldmwqa asældmasæmdæasm asdmasælmælamsdæm sadmaælsmdæasmdæ saædmælasmdælas",
+          "anbefaling":"Klaphat anbefalingen"
+        }
+      ,
+        "Forældresamarbejde":
+        {
+          "indsats":"Tilpasning Af Indsats",
+          "begrundelse":"Klaphat Asmdælamsldmwqa asældmasæmdæasm asdmasælmælamsdæm sadmaælsmdæasmdæ saædmælasmdælas",
+          "anbefaling":"Klaphat anbefalingen"
+        }
+      ,
+        "SammenhængOgOvergange":
+        {
+          "indsats":"Tilpasning Af Indsats",
+          "begrundelse":"Klaphat begrundelse",
+          "anbefaling":"Klaphat er anbefalingen"
+        }
+      ,
+        "KravOmReflektion":
+        {
+          "indsats":"vedligeholdelse Af Indsats",
+          "begrundelse":"Klaphat begrundelse",
+          "anbefaling":"Klaphat er anbefalingen"
+        }
+
+      }
+
+    }
+
+
   }
 ]
 }

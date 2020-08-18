@@ -66,13 +66,16 @@ function Row(props) {
     const classes = useRowStyles();
     const [anbefaling, setAnbefaling] = React.useState([]);
     const [begrundelse, setBegrundelse] = React.useState([]);
+    const [openFane, setopenFane] = React.useState([]);
 
 
-    const onClickRandomButton = (anbefaling, begrundelse) => {
+
+    const onClickRandomButton = (anbefaling, begrundelse, fane) => {
 
         if(!open){
             setAnbefaling(anbefaling);
             setBegrundelse(begrundelse);
+            setopenFane(fane);
             console.log(anbefaling);
             console.log(begrundelse);
         }
@@ -102,27 +105,27 @@ function Row(props) {
                     </IconButton>
                 </TableCell>
                 <TableCell align="right">
-                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.InklussionOgFællesskab.anbefaling,row.periodiskTilsyn.foerste.InklussionOgFællesskab.begrundelse)}>
+                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.InklussionOgFællesskab.anbefaling,row.periodiskTilsyn.foerste.InklussionOgFællesskab.begrundelse,"InklussionOgFællesskab")}>
                         {<h1>{row.periodiskTilsyn.foerste.InklussionOgFællesskab.indsats}</h1>}
                         </IconButton>
                 </TableCell>
                 <TableCell align="right">
-                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.SocialeRelationer.anbefaling,row.periodiskTilsyn.foerste.SocialeRelationer.begrundelse)}>
+                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.SocialeRelationer.anbefaling,row.periodiskTilsyn.foerste.SocialeRelationer.begrundelse,"SocialeRelationer")}>
                         {<h1>{row.periodiskTilsyn.foerste.SocialeRelationer.indsats}</h1>}
                     </IconButton>
                 </TableCell>
                 <TableCell align="right">
-                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.Forældresamarbejde.anbefaling,row.periodiskTilsyn.foerste.Forældresamarbejde.begrundelse)}>
+                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.Forældresamarbejde.anbefaling,row.periodiskTilsyn.foerste.Forældresamarbejde.begrundelse,"Forældresamarbejde")}>
                         {<h1>{row.periodiskTilsyn.foerste.Forældresamarbejde.indsats}</h1>}
                     </IconButton>
                 </TableCell>
                 <TableCell align="right">
-                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.SammenhængOgOvergange.anbefaling,row.periodiskTilsyn.foerste.SammenhængOgOvergange.begrundelse)}>
+                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.SammenhængOgOvergange.anbefaling,row.periodiskTilsyn.foerste.SammenhængOgOvergange.begrundelse,"SammenhængOgOvergange" )}>
                         { <h1>{row.periodiskTilsyn.foerste.SammenhængOgOvergange.indsats}</h1>}
                     </IconButton>
                 </TableCell>
                 <TableCell align="right">
-                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.KravOmReflektion.anbefaling,row.periodiskTilsyn.foerste.KravOmReflektion.begrundelse)}>
+                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.KravOmReflektion.anbefaling,row.periodiskTilsyn.foerste.KravOmReflektion.begrundelse,"KravOmReflektion")}>
                         <h1>{row.periodiskTilsyn.foerste.KravOmReflektion.indsats}</h1>
                     </IconButton>
                 </TableCell>
@@ -132,7 +135,7 @@ function Row(props) {
                     <Collapse in={open} timeout="auto" unmountOnExit>
                         <Box margin={1}>
                             <Typography variant="h6" gutterBottom component="div">
-                                History
+                                {openFane}
                             </Typography>
                             <Table size="small" aria-label="purchases">
                                 <TableHead>
