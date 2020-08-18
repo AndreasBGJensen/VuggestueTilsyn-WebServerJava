@@ -91,42 +91,42 @@ function Row(props) {
             <TableRow >
                 <TableCell component="th" scope="row">
                     <IconButton aria-label="expand row" size="small" onClick={() => setOpen(!open)}>
-                        {<h1>{row.name}</h1>}
+                        {<h3>{row.name}</h3>}
                     </IconButton>
                 </TableCell>
                 <TableCell align="right">
                     <IconButton aria-label="expand row" size="small" onClick={() => setOpen(!open)}>
-                    {<h1>{row.venteliste}</h1>}
+                    {<h3>{row.venteliste}</h3>}
                     </IconButton>
                 </TableCell>
                 <TableCell align="right">
                     <IconButton aria-label="expand row" size="small" onClick={() => setOpen(!open)}>
-                        { <h1>{row.homepage}</h1>}
+                        { <h3>{row.homepage}</h3>}
                     </IconButton>
                 </TableCell>
                 <TableCell align="right">
                     <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.InklussionOgFællesskab.anbefaling,row.periodiskTilsyn.foerste.InklussionOgFællesskab.begrundelse,"InklussionOgFællesskab")}>
-                        {<h1>{row.periodiskTilsyn.foerste.InklussionOgFællesskab.indsats}</h1>}
+                        {<h3>{row.periodiskTilsyn.foerste.InklussionOgFællesskab.indsats}</h3>}
                         </IconButton>
                 </TableCell>
                 <TableCell align="right">
                     <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.SocialeRelationer.anbefaling,row.periodiskTilsyn.foerste.SocialeRelationer.begrundelse,"SocialeRelationer")}>
-                        {<h1>{row.periodiskTilsyn.foerste.SocialeRelationer.indsats}</h1>}
+                        {<h3>{row.periodiskTilsyn.foerste.SocialeRelationer.indsats}</h3>}
                     </IconButton>
                 </TableCell>
                 <TableCell align="right">
                     <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.Forældresamarbejde.anbefaling,row.periodiskTilsyn.foerste.Forældresamarbejde.begrundelse,"Forældresamarbejde")}>
-                        {<h1>{row.periodiskTilsyn.foerste.Forældresamarbejde.indsats}</h1>}
+                        {<h3>{row.periodiskTilsyn.foerste.Forældresamarbejde.indsats}</h3>}
                     </IconButton>
                 </TableCell>
                 <TableCell align="right">
                     <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.SammenhængOgOvergange.anbefaling,row.periodiskTilsyn.foerste.SammenhængOgOvergange.begrundelse,"SammenhængOgOvergange" )}>
-                        { <h1>{row.periodiskTilsyn.foerste.SammenhængOgOvergange.indsats}</h1>}
+                        { <h3>{row.periodiskTilsyn.foerste.SammenhængOgOvergange.indsats}</h3>}
                     </IconButton>
                 </TableCell>
                 <TableCell align="right">
                     <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.KravOmReflektion.anbefaling,row.periodiskTilsyn.foerste.KravOmReflektion.begrundelse,"KravOmReflektion")}>
-                        <h1>{row.periodiskTilsyn.foerste.KravOmReflektion.indsats}</h1>
+                        <h3>{row.periodiskTilsyn.foerste.KravOmReflektion.indsats}</h3>
                     </IconButton>
                 </TableCell>
             </TableRow>
@@ -140,10 +140,8 @@ function Row(props) {
                             <Table size="small" aria-label="purchases">
                                 <TableHead>
                                     <TableRow>
-                                        <TableCell>Date</TableCell>
-                                        <TableCell>Customer</TableCell>
-                                        <TableCell align="right">Amount</TableCell>
-                                        <TableCell align="right">Total price ($)</TableCell>
+                                        <TableCell>Anbefaling</TableCell>
+                                        <TableCell>Begrundelse</TableCell>
                                     </TableRow>
                                 </TableHead>
                                 <TableBody>
