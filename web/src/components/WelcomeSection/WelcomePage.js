@@ -7,10 +7,12 @@ import makeStyles from "@material-ui/core/styles/makeStyles";
 import ContentTable from "../ContentTable";
 import TestCollapseTable from "../TestCollapseTable";
 import NewTable from "../NewTable";
+import SearchBar from "../SearchBar";
+import withStyles from "@material-ui/core/styles/withStyles";
 
 
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = theme => ({
     root: {
         flexGrow: 1,
         alignItems: 'center',
@@ -25,10 +27,31 @@ const useStyles = makeStyles((theme) => ({
         padding: theme.spacing(2),
         color: theme.palette.text.secondary,
     }
-}));
+});
 
-function WelcomePage() {
-    const classes = useStyles();
+
+
+class WelcomePage extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state ={
+            searchWord:"",
+        };
+    }
+
+/*
+This update searchword is prop in SearchBar component. This is so that that we can pass the searchword to the NewTable component.
+The searchWord is used so that we are able to filter the institution list.
+ */
+updateSearchWord = newWord =>{
+        this.setState({searchWord:newWord});
+    console.log(this.state.searchWord);
+
+}
+
+
+render(){
+    const { classes } = this.props;
         return(
             <div>
 
@@ -40,7 +63,8 @@ function WelcomePage() {
                             <h2  >sdfsdfsdf</h2>
                         </Grid>
                         <Grid item xs={8} className={classes.centerGrid}>
-                            <NewTable/>
+                            <SearchBar onChange={(value)=>this.updateSearchWord(value)}/>
+                            <NewTable searchword={this.state.searchWord}/>
                         </Grid>
 
                         <Grid item className={classes.leftNRightGrid} xs={2}>
@@ -53,7 +77,7 @@ function WelcomePage() {
 
             </div>
         )
-
+}
 }
 
-export default WelcomePage;
+export default withStyles(useStyles)(WelcomePage);

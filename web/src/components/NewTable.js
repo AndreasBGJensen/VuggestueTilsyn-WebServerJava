@@ -184,7 +184,9 @@ Row.propTypes = {
 };
 
 
-export default function NewTable() {
+
+
+export default function NewTable(props) {
     return (
         <TableContainer component={Paper}>
             <Table aria-label="collapsible table">
@@ -201,7 +203,10 @@ export default function NewTable() {
                     </TableRow>
                 </TableHead>
                 <TableBody>
-                    {jsonObject.payload.map((row) => (
+                    {jsonObject.payload.filter(name =>{
+                        return name.name.toLowerCase().indexOf(props.searchword.toLowerCase()) >=0;
+
+                    }).map((row) => (
                         <Row key={row.name} row={row} />
                     ))}
                 </TableBody>
