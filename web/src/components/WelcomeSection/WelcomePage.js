@@ -59,15 +59,15 @@ render(){
                         <FormUserDetail/>
 
                     <Grid container className={classes.root}>
-                        <Grid item className={classes.leftNRightGrid} xs={2}>
+                        <Grid item className={classes.leftNRightGrid} xs={1}>
                             <h2  >sdfsdfsdf</h2>
                         </Grid>
-                        <Grid item xs={8} className={classes.centerGrid}>
+                        <Grid item xs={10} className={classes.centerGrid}>
                             <SearchBar onChange={(value)=>this.updateSearchWord(value)}/>
                             <NewTable searchword={this.state.searchWord}/>
                         </Grid>
 
-                        <Grid item className={classes.leftNRightGrid} xs={2}>
+                        <Grid item className={classes.leftNRightGrid} xs={1}>
                             <h2>sdfsdfsdf</h2>
                         </Grid>
                     </Grid>

@@ -75,7 +75,6 @@ class Ing extends React.Component{
 ReactDOM.render(
  <React.StrictMode>
     <WelcomePage/>
-    <PostList/>
   </React.StrictMode>,
 
   document.getElementById('root')

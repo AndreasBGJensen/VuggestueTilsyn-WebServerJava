@@ -28,37 +28,11 @@ const useRowStyles = makeStyles({
 
 const jsonObject = PostData;
 
-function createData(name, venteliste, homepage, InklussionOgFællesskab,SocialeRelationer,Forældresamarbejde,SammenhængOgOvergange,KravOmReflektion) {
-    return { name, venteliste, homepage, InklussionOgFællesskab,SocialeRelationer,Forældresamarbejde,SammenhængOgOvergange,KravOmReflektion};
-}
-
-function createDataArray(jsonObject){
-    console.log(typeof jsonObject)
-
-    const rowsh = [];
-    for (var i = 0; i < jsonObject.length; i++) {
-        var obj = jsonObject[i];
-
-        console.log(obj);
-        var data = createData(obj.name, obj.venteliste, obj.homepage,
-            obj.periodiskTilsyn.foerste.InklussionOgFællesskab.indsats,
-            obj.periodiskTilsyn.foerste.Forældresamarbejde.indsats,
-            obj.periodiskTilsyn.foerste.KravOmReflektion.indsats,
-            obj.periodiskTilsyn.foerste.SocialeRelationer.indsats,
-            obj.periodiskTilsyn.foerste.Sprogindsatsen.indsats);
-        var data2 = JSON.stringify(obj);
-        rowsh.push(data);
-
-
-    }
-    console.log(rowsh);
-    return rowsh;
-}
 
 
 
 
-const rows = createDataArray(jsonObject);
+
 
 function Row(props) {
     const { row } = props;
@@ -67,15 +41,17 @@ function Row(props) {
     const [anbefaling, setAnbefaling] = React.useState([]);
     const [begrundelse, setBegrundelse] = React.useState([]);
     const [openFane, setopenFane] = React.useState([]);
+    const [institutionToInspect, setinstitutionToInspect] = React.useState([]);
 
 
 
-    const onClickRandomButton = (anbefaling, begrundelse, fane) => {
+    const onClickRandomButton = (anbefaling, begrundelse, fane, institution) => {
 
         if(!open){
             setAnbefaling(anbefaling);
             setBegrundelse(begrundelse);
             setopenFane(fane);
+            setinstitutionToInspect(institution);
             console.log(anbefaling);
             console.log(begrundelse);
         }
@@ -91,49 +67,52 @@ function Row(props) {
             <TableRow >
                 <TableCell component="th" scope="row">
                     <IconButton aria-label="expand row" size="small" onClick={() => setOpen(!open)}>
-                        {<h3>{row.name}</h3>}
+                        {<p>{row.name}</p>}
                     </IconButton>
                 </TableCell>
-                <TableCell align="right">
+                <TableCell align="center">
                     <IconButton aria-label="expand row" size="small" onClick={() => setOpen(!open)}>
-                    {<h3>{row.venteliste}</h3>}
+                    {<p>{row.venteliste}</p>}
                     </IconButton>
                 </TableCell>
                 <TableCell align="right">
-                    <IconButton aria-label="expand row" size="small" onClick={() => setOpen(!open)}>
-                        { <h3>{row.homepage}</h3>}
-                    </IconButton>
+
+                       <a>{row.homepage}</a>
+
                 </TableCell>
                 <TableCell align="right">
-                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.InklussionOgFællesskab.anbefaling,row.periodiskTilsyn.foerste.InklussionOgFællesskab.begrundelse,"InklussionOgFællesskab")}>
-                        {<h3>{row.periodiskTilsyn.foerste.InklussionOgFællesskab.indsats}</h3>}
+                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.InklussionOgFællesskab.anbefaling,row.periodiskTilsyn.foerste.InklussionOgFællesskab.begrundelse,"InklussionOgFællesskab",row.name)}>
+                        {<p>{row.periodiskTilsyn.foerste.InklussionOgFællesskab.indsats}</p>}
                         </IconButton>
                 </TableCell>
                 <TableCell align="right">
-                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.SocialeRelationer.anbefaling,row.periodiskTilsyn.foerste.SocialeRelationer.begrundelse,"SocialeRelationer")}>
-                        {<h3>{row.periodiskTilsyn.foerste.SocialeRelationer.indsats}</h3>}
+                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.SocialeRelationer.anbefaling,row.periodiskTilsyn.foerste.SocialeRelationer.begrundelse,"SocialeRelationer",row.name)}>
+                        {<p>{row.periodiskTilsyn.foerste.SocialeRelationer.indsats}</p>}
                     </IconButton>
                 </TableCell>
                 <TableCell align="right">
-                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.Forældresamarbejde.anbefaling,row.periodiskTilsyn.foerste.Forældresamarbejde.begrundelse,"Forældresamarbejde")}>
-                        {<h3>{row.periodiskTilsyn.foerste.Forældresamarbejde.indsats}</h3>}
+                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.Forældresamarbejde.anbefaling,row.periodiskTilsyn.foerste.Forældresamarbejde.begrundelse,"Forældresamarbejde",row.name)}>
+                        {<p>{row.periodiskTilsyn.foerste.Forældresamarbejde.indsats}</p>}
                     </IconButton>
                 </TableCell>
                 <TableCell align="right">
-                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.SammenhængOgOvergange.anbefaling,row.periodiskTilsyn.foerste.SammenhængOgOvergange.begrundelse,"SammenhængOgOvergange" )}>
-                        { <h3>{row.periodiskTilsyn.foerste.SammenhængOgOvergange.indsats}</h3>}
+                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.SammenhængOgOvergange.anbefaling,row.periodiskTilsyn.foerste.SammenhængOgOvergange.begrundelse,"SammenhængOgOvergange" ,row.name)}>
+                        { <p>{row.periodiskTilsyn.foerste.SammenhængOgOvergange.indsats}</p>}
                     </IconButton>
                 </TableCell>
                 <TableCell align="right">
-                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.KravOmReflektion.anbefaling,row.periodiskTilsyn.foerste.KravOmReflektion.begrundelse,"KravOmReflektion")}>
-                        <h3>{row.periodiskTilsyn.foerste.KravOmReflektion.indsats}</h3>
+                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.KravOmReflektion.anbefaling,row.periodiskTilsyn.foerste.KravOmReflektion.begrundelse,"KravOmReflektion",row.name)}>
+                        <p>{row.periodiskTilsyn.foerste.KravOmReflektion.indsats}</p>
                     </IconButton>
                 </TableCell>
             </TableRow>
             <TableRow>
-                <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={6}>
+                <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={12} align="center">
                     <Collapse in={open} timeout="auto" unmountOnExit>
                         <Box margin={1}>
+                            <Typography variant="h6" gutterBottom component="div">
+                                {institutionToInspect}
+                            </Typography>
                             <Typography variant="h6" gutterBottom component="div">
                                 {openFane}
                             </Typography>
@@ -192,14 +171,14 @@ export default function NewTable(props) {
             <Table aria-label="collapsible table">
                 <TableHead>
                     <TableRow>
-                        <TableCell>Navn</TableCell>
-                        <TableCell align="center">Venteliste</TableCell>
-                        <TableCell align="center">Hjemmeside</TableCell>
-                        <TableCell align="center">Inklussion Og Fællesskab</TableCell>
-                        <TableCell align="center">Sociale Relationer</TableCell>
-                        <TableCell align="center">Forældresamarbejde</TableCell>
-                        <TableCell align="center">Sammenhæng Og Overgange</TableCell>
-                        <TableCell align="center">Krav Om Reflektion</TableCell>
+                        <TableCell><h2>Navn</h2></TableCell>
+                        <TableCell align="center"><h2>Venteliste</h2></TableCell>
+                        <TableCell align="center"><h2>Hjemmeside</h2></TableCell>
+                        <TableCell align="center"><h2>Inklussion Og Fællesskab</h2></TableCell>
+                        <TableCell align="center"><h2>Sociale Relationer</h2></TableCell>
+                        <TableCell align="center"><h2>Forældresamarbejde</h2></TableCell>
+                        <TableCell align="center"><h2>Sammenhæng Og Overgange</h2></TableCell>
+                        <TableCell align="center"><h2>Krav Om Reflektion</h2></TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
