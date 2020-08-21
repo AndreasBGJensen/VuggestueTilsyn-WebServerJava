@@ -1,4 +1,5 @@
 
+import Configuration.Config;
 import org.apache.catalina.LifecycleException;
 import org.apache.catalina.startup.Tomcat;
 
@@ -8,6 +9,10 @@ public class Main {
 
     public static void main(String[] args) {
         try {
+            Config configuration = Config.getInstance();
+            configuration.setTestMode(true);
+
+
             Tomcat tomcat = new Tomcat();
             tomcat.setBaseDir("temp");
             String port = System.getenv("PORT"); //Til Heroku
