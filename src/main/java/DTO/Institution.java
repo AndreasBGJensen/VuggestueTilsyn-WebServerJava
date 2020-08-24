@@ -1,11 +1,18 @@
 package DTO;
 
-public class Institution {
+import dev.morphia.annotations.Entity;
+import dev.morphia.annotations.Id;
 
+@Entity("institution")
+public class Institution {
+    @Id
     String name;
     String homepage;
     int venteliste;
     PeriodiskeTilsyn periodiskTilsyn;
+
+    public Institution() {
+    }
 
     public String getName() {
         return name;
