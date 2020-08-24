@@ -6,5 +6,5 @@ matrix:
         - 10
 
     - language: java
-      jdk: oraclejd11
+      jdk: oraclejd8
 
