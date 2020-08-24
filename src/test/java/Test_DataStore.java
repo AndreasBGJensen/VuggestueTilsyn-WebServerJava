@@ -1,22 +1,12 @@
-import DTO.Tilsyn.*;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import org.json.JSONObject;
-import org.junit.jupiter.api.Test;
 import DTO.*;
-
-import javax.ws.rs.core.Response;
+import DTO.Tilsyn.*;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
+public class Test_DataStore {
 
-
-public class DTO {
-
-    private List<AbstractTilsyn> initPeriodistTilsyn(){
+    public List<AbstractTilsyn> InitTilsyn(){
         //Instaciating cathegories of tilsyn
         AbstractTilsyn forældresammarbejde = new Forældresamarbejde();
         forældresammarbejde.setIndsats("forældresammarbejde, Vedligeholdelse af indsats");
@@ -67,33 +57,10 @@ public class DTO {
         tilsynsKategorier.add(forældresammarbejde);
 
         return tilsynsKategorier;
-
     }
 
-    /*
-    Testing that abstraction of institution is working proporbly
-     */
-
-    @Test
-    public void Test_InstitutionInstances(){
-
-
-        List<AbstractTilsyn> tilsynsKategorier = initPeriodistTilsyn();
-        //Testing if each object will get its own string
-        for (int i = 1; i<tilsynsKategorier.size();i++){
-            assertFalse(tilsynsKategorier.get(i).toString().equals(tilsynsKategorier.get(i-1).toString()));
-        };
-
-    }
-
-    /*
-    It is preferred that we get a plain Json Object with out ant json arrays, when we map the objects
-     */
-
-    @Test
-    public void Test_FormatOffJSON() throws JsonProcessingException {
-
-        List<AbstractTilsyn> tilsynsKategorier = initPeriodistTilsyn();
+    public Institution createTilsyn(){
+        List<AbstractTilsyn> tilsynsKategorier = InitTilsyn();
 
         //Instaciating Periodisk tilsyn
         PeriodiskeTilsyn tilsyn = new PeriodiskeTilsyn();
@@ -112,12 +79,6 @@ public class DTO {
         institution.setVenteliste(35);
 
 
-        ObjectMapper objectMapper = new ObjectMapper();
-        String jsonStr = objectMapper.writeValueAsString(institution);
-
-        System.out.println(jsonStr);
-
-
+        return institution;
     }
-
 }
