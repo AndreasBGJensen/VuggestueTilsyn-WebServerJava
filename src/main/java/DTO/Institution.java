@@ -4,7 +4,7 @@ import dev.morphia.annotations.Entity;
 import dev.morphia.annotations.Id;
 
 @Entity("institution")
-public class Institution {
+public class Institution extends Object {
     @Id
     String name;
     String homepage;

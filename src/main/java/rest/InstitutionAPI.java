@@ -23,6 +23,6 @@ public class InstitutionAPI {
     @GET
     public String getInstitution() {
 
-        return controller.getAllInstitutions();
+        return null;
     }
 }

@@ -81,4 +81,40 @@ public class Test_DataStore {
 
         return institution;
     }
+
+
+    public List<Institution> getListOfInstitutions(int numberOfInstitutionsInList){
+
+        if(numberOfInstitutionsInList<0){
+            return null;
+        }
+
+        List<AbstractTilsyn> tilsynsKategorier = InitTilsyn();
+
+        //Instaciating Periodisk tilsyn
+        PeriodiskeTilsyn tilsyn = new PeriodiskeTilsyn();
+        tilsyn.setSprogindsatsen(tilsynsKategorier.get(0));
+        tilsyn.setSocialeRelationer(tilsynsKategorier.get(1));
+        tilsyn.setSammenhængeOgOvergange(tilsynsKategorier.get(2));
+        tilsyn.setKravOmReflektion(tilsynsKategorier.get(3));
+        tilsyn.setInklussionOgFællesskab(tilsynsKategorier.get(4));
+        tilsyn.setForældresamarbejde(tilsynsKategorier.get(5));
+
+
+        List<Institution> listOfInstitutions = new ArrayList<Institution>();
+
+        for(int i = 0; i<numberOfInstitutionsInList;i++){
+            Institution institution = new Institution();
+            institution.setTilsyn(tilsyn);
+            institution.setName(Integer.toString(i));
+            institution.setWebpage("http://www."+i+".dk");
+            institution.setVenteliste(i);
+            listOfInstitutions.add(institution);
+
+        }
+
+
+
+        return listOfInstitutions;
+    }
 }

@@ -1,5 +1,6 @@
 package Controller;
 
+
 import DTO.Institution;
 
 public interface IController {
