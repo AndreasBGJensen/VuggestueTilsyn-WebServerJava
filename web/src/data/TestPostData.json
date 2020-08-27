@@ -1,0 +1,779 @@
+[
+  {
+    "name": "0",
+    "venteliste": 0,
+    "webpage": "http://www.0.dk",
+    "tilsyn": {
+      "inklussionOgFællesskab": {
+        "indsats": "inklusionOgFællesskab, Vedligeholdelse af indsats",
+        "begrundelse": "inklusionOgFællesskab, begrundelse",
+        "anbefaling": "inklusionOgFællesskab, anbefaling"
+      },
+      "socialeRelationer": {
+        "indsats": "socialeRelationer, Vedligeholdelse af indsats",
+        "begrundelse": "socialeRelationer, begrundelse",
+        "anbefaling": "socialeRelationer, anbefaling"
+      },
+      "sprogindsatsen": {
+        "indsats": "sprogindsatsen, Vedligeholdelse af indsats",
+        "begrundelse": "sprogindsatsen, begrundelse",
+        "anbefaling": "sprogindsatsen, anbefaling"
+      },
+      "forældresamarbejde": {
+        "indsats": "forældresammarbejde, Vedligeholdelse af indsats",
+        "begrundelse": "forældresammarbejde, begrundelse",
+        "anbefaling": "forældresammarbejde, anbefaling"
+      },
+      "sammenhængeOgOvergange": {
+        "indsats": "sammenhængeOgOvergang, Vedligeholdelse af indsats",
+        "begrundelse": "sammenhængeOgOvergang, begrundelse",
+        "anbefaling": "sammenhængeOgOvergang, anbefaling"
+      },
+      "kravOmReflektion": {
+        "indsats": "kravOmReflektion, Vedligeholdelse af indsats",
+        "begrundelse": "kravOmReflektion, begrundelse",
+        "anbefaling": "kravOmReflektion, anbefaling"
+      }
+    }
+  },
+  {
+    "name": "1",
+    "venteliste": 1,
+    "webpage": "http://www.1.dk",
+    "tilsyn": {
+      "inklussionOgFællesskab": {
+        "indsats": "inklusionOgFællesskab, Vedligeholdelse af indsats",
+        "begrundelse": "inklusionOgFællesskab, begrundelse",
+        "anbefaling": "inklusionOgFællesskab, anbefaling"
+      },
+      "socialeRelationer": {
+        "indsats": "socialeRelationer, Vedligeholdelse af indsats",
+        "begrundelse": "socialeRelationer, begrundelse",
+        "anbefaling": "socialeRelationer, anbefaling"
+      },
+      "sprogindsatsen": {
+        "indsats": "sprogindsatsen, Vedligeholdelse af indsats",
+        "begrundelse": "sprogindsatsen, begrundelse",
+        "anbefaling": "sprogindsatsen, anbefaling"
+      },
+      "forældresamarbejde": {
+        "indsats": "forældresammarbejde, Vedligeholdelse af indsats",
+        "begrundelse": "forældresammarbejde, begrundelse",
+        "anbefaling": "forældresammarbejde, anbefaling"
+      },
+      "sammenhængeOgOvergange": {
+        "indsats": "sammenhængeOgOvergang, Vedligeholdelse af indsats",
+        "begrundelse": "sammenhængeOgOvergang, begrundelse",
+        "anbefaling": "sammenhængeOgOvergang, anbefaling"
+      },
+      "kravOmReflektion": {
+        "indsats": "kravOmReflektion, Vedligeholdelse af indsats",
+        "begrundelse": "kravOmReflektion, begrundelse",
+        "anbefaling": "kravOmReflektion, anbefaling"
+      }
+    }
+  },
+  {
+    "name": "2",
+    "venteliste": 2,
+    "webpage": "http://www.2.dk",
+    "tilsyn": {
+      "inklussionOgFællesskab": {
+        "indsats": "inklusionOgFællesskab, Vedligeholdelse af indsats",
+        "begrundelse": "inklusionOgFællesskab, begrundelse",
+        "anbefaling": "inklusionOgFællesskab, anbefaling"
+      },
+      "socialeRelationer": {
+        "indsats": "socialeRelationer, Vedligeholdelse af indsats",
+        "begrundelse": "socialeRelationer, begrundelse",
+        "anbefaling": "socialeRelationer, anbefaling"
+      },
+      "sprogindsatsen": {
+        "indsats": "sprogindsatsen, Vedligeholdelse af indsats",
+        "begrundelse": "sprogindsatsen, begrundelse",
+        "anbefaling": "sprogindsatsen, anbefaling"
+      },
+      "forældresamarbejde": {
+        "indsats": "forældresammarbejde, Vedligeholdelse af indsats",
+        "begrundelse": "forældresammarbejde, begrundelse",
+        "anbefaling": "forældresammarbejde, anbefaling"
+      },
+      "sammenhængeOgOvergange": {
+        "indsats": "sammenhængeOgOvergang, Vedligeholdelse af indsats",
+        "begrundelse": "sammenhængeOgOvergang, begrundelse",
+        "anbefaling": "sammenhængeOgOvergang, anbefaling"
+      },
+      "kravOmReflektion": {
+        "indsats": "kravOmReflektion, Vedligeholdelse af indsats",
+        "begrundelse": "kravOmReflektion, begrundelse",
+        "anbefaling": "kravOmReflektion, anbefaling"
+      }
+    }
+  },
+  {
+    "name": "3",
+    "venteliste": 3,
+    "webpage": "http://www.3.dk",
+    "tilsyn": {
+      "inklussionOgFællesskab": {
+        "indsats": "inklusionOgFællesskab, Vedligeholdelse af indsats",
+        "begrundelse": "inklusionOgFællesskab, begrundelse",
+        "anbefaling": "inklusionOgFællesskab, anbefaling"
+      },
+      "socialeRelationer": {
+        "indsats": "socialeRelationer, Vedligeholdelse af indsats",
+        "begrundelse": "socialeRelationer, begrundelse",
+        "anbefaling": "socialeRelationer, anbefaling"
+      },
+      "sprogindsatsen": {
+        "indsats": "sprogindsatsen, Vedligeholdelse af indsats",
+        "begrundelse": "sprogindsatsen, begrundelse",
+        "anbefaling": "sprogindsatsen, anbefaling"
+      },
+      "forældresamarbejde": {
+        "indsats": "forældresammarbejde, Vedligeholdelse af indsats",
+        "begrundelse": "forældresammarbejde, begrundelse",
+        "anbefaling": "forældresammarbejde, anbefaling"
+      },
+      "sammenhængeOgOvergange": {
+        "indsats": "sammenhængeOgOvergang, Vedligeholdelse af indsats",
+        "begrundelse": "sammenhængeOgOvergang, begrundelse",
+        "anbefaling": "sammenhængeOgOvergang, anbefaling"
+      },
+      "kravOmReflektion": {
+        "indsats": "kravOmReflektion, Vedligeholdelse af indsats",
+        "begrundelse": "kravOmReflektion, begrundelse",
+        "anbefaling": "kravOmReflektion, anbefaling"
+      }
+    }
+  },
+  {
+    "name": "4",
+    "venteliste": 4,
+    "webpage": "http://www.4.dk",
+    "tilsyn": {
+      "inklussionOgFællesskab": {
+        "indsats": "inklusionOgFællesskab, Vedligeholdelse af indsats",
+        "begrundelse": "inklusionOgFællesskab, begrundelse",
+        "anbefaling": "inklusionOgFællesskab, anbefaling"
+      },
+      "socialeRelationer": {
+        "indsats": "socialeRelationer, Vedligeholdelse af indsats",
+        "begrundelse": "socialeRelationer, begrundelse",
+        "anbefaling": "socialeRelationer, anbefaling"
+      },
+      "sprogindsatsen": {
+        "indsats": "sprogindsatsen, Vedligeholdelse af indsats",
+        "begrundelse": "sprogindsatsen, begrundelse",
+        "anbefaling": "sprogindsatsen, anbefaling"
+      },
+      "forældresamarbejde": {
+        "indsats": "forældresammarbejde, Vedligeholdelse af indsats",
+        "begrundelse": "forældresammarbejde, begrundelse",
+        "anbefaling": "forældresammarbejde, anbefaling"
+      },
+      "sammenhængeOgOvergange": {
+        "indsats": "sammenhængeOgOvergang, Vedligeholdelse af indsats",
+        "begrundelse": "sammenhængeOgOvergang, begrundelse",
+        "anbefaling": "sammenhængeOgOvergang, anbefaling"
+      },
+      "kravOmReflektion": {
+        "indsats": "kravOmReflektion, Vedligeholdelse af indsats",
+        "begrundelse": "kravOmReflektion, begrundelse",
+        "anbefaling": "kravOmReflektion, anbefaling"
+      }
+    }
+  },
+  {
+    "name": "5",
+    "venteliste": 5,
+    "webpage": "http://www.5.dk",
+    "tilsyn": {
+      "inklussionOgFællesskab": {
+        "indsats": "inklusionOgFællesskab, Vedligeholdelse af indsats",
+        "begrundelse": "inklusionOgFællesskab, begrundelse",
+        "anbefaling": "inklusionOgFællesskab, anbefaling"
+      },
+      "socialeRelationer": {
+        "indsats": "socialeRelationer, Vedligeholdelse af indsats",
+        "begrundelse": "socialeRelationer, begrundelse",
+        "anbefaling": "socialeRelationer, anbefaling"
+      },
+      "sprogindsatsen": {
+        "indsats": "sprogindsatsen, Vedligeholdelse af indsats",
+        "begrundelse": "sprogindsatsen, begrundelse",
+        "anbefaling": "sprogindsatsen, anbefaling"
+      },
+      "forældresamarbejde": {
+        "indsats": "forældresammarbejde, Vedligeholdelse af indsats",
+        "begrundelse": "forældresammarbejde, begrundelse",
+        "anbefaling": "forældresammarbejde, anbefaling"
+      },
+      "sammenhængeOgOvergange": {
+        "indsats": "sammenhængeOgOvergang, Vedligeholdelse af indsats",
+        "begrundelse": "sammenhængeOgOvergang, begrundelse",
+        "anbefaling": "sammenhængeOgOvergang, anbefaling"
+      },
+      "kravOmReflektion": {
+        "indsats": "kravOmReflektion, Vedligeholdelse af indsats",
+        "begrundelse": "kravOmReflektion, begrundelse",
+        "anbefaling": "kravOmReflektion, anbefaling"
+      }
+    }
+  },
+  {
+    "name": "6",
+    "venteliste": 6,
+    "webpage": "http://www.6.dk",
+    "tilsyn": {
+      "inklussionOgFællesskab": {
+        "indsats": "inklusionOgFællesskab, Vedligeholdelse af indsats",
+        "begrundelse": "inklusionOgFællesskab, begrundelse",
+        "anbefaling": "inklusionOgFællesskab, anbefaling"
+      },
+      "socialeRelationer": {
+        "indsats": "socialeRelationer, Vedligeholdelse af indsats",
+        "begrundelse": "socialeRelationer, begrundelse",
+        "anbefaling": "socialeRelationer, anbefaling"
+      },
+      "sprogindsatsen": {
+        "indsats": "sprogindsatsen, Vedligeholdelse af indsats",
+        "begrundelse": "sprogindsatsen, begrundelse",
+        "anbefaling": "sprogindsatsen, anbefaling"
+      },
+      "forældresamarbejde": {
+        "indsats": "forældresammarbejde, Vedligeholdelse af indsats",
+        "begrundelse": "forældresammarbejde, begrundelse",
+        "anbefaling": "forældresammarbejde, anbefaling"
+      },
+      "sammenhængeOgOvergange": {
+        "indsats": "sammenhængeOgOvergang, Vedligeholdelse af indsats",
+        "begrundelse": "sammenhængeOgOvergang, begrundelse",
+        "anbefaling": "sammenhængeOgOvergang, anbefaling"
+      },
+      "kravOmReflektion": {
+        "indsats": "kravOmReflektion, Vedligeholdelse af indsats",
+        "begrundelse": "kravOmReflektion, begrundelse",
+        "anbefaling": "kravOmReflektion, anbefaling"
+      }
+    }
+  },
+  {
+    "name": "7",
+    "venteliste": 7,
+    "webpage": "http://www.7.dk",
+    "tilsyn": {
+      "inklussionOgFællesskab": {
+        "indsats": "inklusionOgFællesskab, Vedligeholdelse af indsats",
+        "begrundelse": "inklusionOgFællesskab, begrundelse",
+        "anbefaling": "inklusionOgFællesskab, anbefaling"
+      },
+      "socialeRelationer": {
+        "indsats": "socialeRelationer, Vedligeholdelse af indsats",
+        "begrundelse": "socialeRelationer, begrundelse",
+        "anbefaling": "socialeRelationer, anbefaling"
+      },
+      "sprogindsatsen": {
+        "indsats": "sprogindsatsen, Vedligeholdelse af indsats",
+        "begrundelse": "sprogindsatsen, begrundelse",
+        "anbefaling": "sprogindsatsen, anbefaling"
+      },
+      "forældresamarbejde": {
+        "indsats": "forældresammarbejde, Vedligeholdelse af indsats",
+        "begrundelse": "forældresammarbejde, begrundelse",
+        "anbefaling": "forældresammarbejde, anbefaling"
+      },
+      "sammenhængeOgOvergange": {
+        "indsats": "sammenhængeOgOvergang, Vedligeholdelse af indsats",
+        "begrundelse": "sammenhængeOgOvergang, begrundelse",
+        "anbefaling": "sammenhængeOgOvergang, anbefaling"
+      },
+      "kravOmReflektion": {
+        "indsats": "kravOmReflektion, Vedligeholdelse af indsats",
+        "begrundelse": "kravOmReflektion, begrundelse",
+        "anbefaling": "kravOmReflektion, anbefaling"
+      }
+    }
+  },
+  {
+    "name": "8",
+    "venteliste": 8,
+    "webpage": "http://www.8.dk",
+    "tilsyn": {
+      "inklussionOgFællesskab": {
+        "indsats": "inklusionOgFællesskab, Vedligeholdelse af indsats",
+        "begrundelse": "inklusionOgFællesskab, begrundelse",
+        "anbefaling": "inklusionOgFællesskab, anbefaling"
+      },
+      "socialeRelationer": {
+        "indsats": "socialeRelationer, Vedligeholdelse af indsats",
+        "begrundelse": "socialeRelationer, begrundelse",
+        "anbefaling": "socialeRelationer, anbefaling"
+      },
+      "sprogindsatsen": {
+        "indsats": "sprogindsatsen, Vedligeholdelse af indsats",
+        "begrundelse": "sprogindsatsen, begrundelse",
+        "anbefaling": "sprogindsatsen, anbefaling"
+      },
+      "forældresamarbejde": {
+        "indsats": "forældresammarbejde, Vedligeholdelse af indsats",
+        "begrundelse": "forældresammarbejde, begrundelse",
+        "anbefaling": "forældresammarbejde, anbefaling"
+      },
+      "sammenhængeOgOvergange": {
+        "indsats": "sammenhængeOgOvergang, Vedligeholdelse af indsats",
+        "begrundelse": "sammenhængeOgOvergang, begrundelse",
+        "anbefaling": "sammenhængeOgOvergang, anbefaling"
+      },
+      "kravOmReflektion": {
+        "indsats": "kravOmReflektion, Vedligeholdelse af indsats",
+        "begrundelse": "kravOmReflektion, begrundelse",
+        "anbefaling": "kravOmReflektion, anbefaling"
+      }
+    }
+  },
+  {
+    "name": "9",
+    "venteliste": 9,
+    "webpage": "http://www.9.dk",
+    "tilsyn": {
+      "inklussionOgFællesskab": {
+        "indsats": "inklusionOgFællesskab, Vedligeholdelse af indsats",
+        "begrundelse": "inklusionOgFællesskab, begrundelse",
+        "anbefaling": "inklusionOgFællesskab, anbefaling"
+      },
+      "socialeRelationer": {
+        "indsats": "socialeRelationer, Vedligeholdelse af indsats",
+        "begrundelse": "socialeRelationer, begrundelse",
+        "anbefaling": "socialeRelationer, anbefaling"
+      },
+      "sprogindsatsen": {
+        "indsats": "sprogindsatsen, Vedligeholdelse af indsats",
+        "begrundelse": "sprogindsatsen, begrundelse",
+        "anbefaling": "sprogindsatsen, anbefaling"
+      },
+      "forældresamarbejde": {
+        "indsats": "forældresammarbejde, Vedligeholdelse af indsats",
+        "begrundelse": "forældresammarbejde, begrundelse",
+        "anbefaling": "forældresammarbejde, anbefaling"
+      },
+      "sammenhængeOgOvergange": {
+        "indsats": "sammenhængeOgOvergang, Vedligeholdelse af indsats",
+        "begrundelse": "sammenhængeOgOvergang, begrundelse",
+        "anbefaling": "sammenhængeOgOvergang, anbefaling"
+      },
+      "kravOmReflektion": {
+        "indsats": "kravOmReflektion, Vedligeholdelse af indsats",
+        "begrundelse": "kravOmReflektion, begrundelse",
+        "anbefaling": "kravOmReflektion, anbefaling"
+      }
+    }
+  },
+  {
+    "name": "10",
+    "venteliste": 10,
+    "webpage": "http://www.10.dk",
+    "tilsyn": {
+      "inklussionOgFællesskab": {
+        "indsats": "inklusionOgFællesskab, Vedligeholdelse af indsats",
+        "begrundelse": "inklusionOgFællesskab, begrundelse",
+        "anbefaling": "inklusionOgFællesskab, anbefaling"
+      },
+      "socialeRelationer": {
+        "indsats": "socialeRelationer, Vedligeholdelse af indsats",
+        "begrundelse": "socialeRelationer, begrundelse",
+        "anbefaling": "socialeRelationer, anbefaling"
+      },
+      "sprogindsatsen": {
+        "indsats": "sprogindsatsen, Vedligeholdelse af indsats",
+        "begrundelse": "sprogindsatsen, begrundelse",
+        "anbefaling": "sprogindsatsen, anbefaling"
+      },
+      "forældresamarbejde": {
+        "indsats": "forældresammarbejde, Vedligeholdelse af indsats",
+        "begrundelse": "forældresammarbejde, begrundelse",
+        "anbefaling": "forældresammarbejde, anbefaling"
+      },
+      "sammenhængeOgOvergange": {
+        "indsats": "sammenhængeOgOvergang, Vedligeholdelse af indsats",
+        "begrundelse": "sammenhængeOgOvergang, begrundelse",
+        "anbefaling": "sammenhængeOgOvergang, anbefaling"
+      },
+      "kravOmReflektion": {
+        "indsats": "kravOmReflektion, Vedligeholdelse af indsats",
+        "begrundelse": "kravOmReflektion, begrundelse",
+        "anbefaling": "kravOmReflektion, anbefaling"
+      }
+    }
+  },
+  {
+    "name": "11",
+    "venteliste": 11,
+    "webpage": "http://www.11.dk",
+    "tilsyn": {
+      "inklussionOgFællesskab": {
+        "indsats": "inklusionOgFællesskab, Vedligeholdelse af indsats",
+        "begrundelse": "inklusionOgFællesskab, begrundelse",
+        "anbefaling": "inklusionOgFællesskab, anbefaling"
+      },
+      "socialeRelationer": {
+        "indsats": "socialeRelationer, Vedligeholdelse af indsats",
+        "begrundelse": "socialeRelationer, begrundelse",
+        "anbefaling": "socialeRelationer, anbefaling"
+      },
+      "sprogindsatsen": {
+        "indsats": "sprogindsatsen, Vedligeholdelse af indsats",
+        "begrundelse": "sprogindsatsen, begrundelse",
+        "anbefaling": "sprogindsatsen, anbefaling"
+      },
+      "forældresamarbejde": {
+        "indsats": "forældresammarbejde, Vedligeholdelse af indsats",
+        "begrundelse": "forældresammarbejde, begrundelse",
+        "anbefaling": "forældresammarbejde, anbefaling"
+      },
+      "sammenhængeOgOvergange": {
+        "indsats": "sammenhængeOgOvergang, Vedligeholdelse af indsats",
+        "begrundelse": "sammenhængeOgOvergang, begrundelse",
+        "anbefaling": "sammenhængeOgOvergang, anbefaling"
+      },
+      "kravOmReflektion": {
+        "indsats": "kravOmReflektion, Vedligeholdelse af indsats",
+        "begrundelse": "kravOmReflektion, begrundelse",
+        "anbefaling": "kravOmReflektion, anbefaling"
+      }
+    }
+  },
+  {
+    "name": "12",
+    "venteliste": 12,
+    "webpage": "http://www.12.dk",
+    "tilsyn": {
+      "inklussionOgFællesskab": {
+        "indsats": "inklusionOgFællesskab, Vedligeholdelse af indsats",
+        "begrundelse": "inklusionOgFællesskab, begrundelse",
+        "anbefaling": "inklusionOgFællesskab, anbefaling"
+      },
+      "socialeRelationer": {
+        "indsats": "socialeRelationer, Vedligeholdelse af indsats",
+        "begrundelse": "socialeRelationer, begrundelse",
+        "anbefaling": "socialeRelationer, anbefaling"
+      },
+      "sprogindsatsen": {
+        "indsats": "sprogindsatsen, Vedligeholdelse af indsats",
+        "begrundelse": "sprogindsatsen, begrundelse",
+        "anbefaling": "sprogindsatsen, anbefaling"
+      },
+      "forældresamarbejde": {
+        "indsats": "forældresammarbejde, Vedligeholdelse af indsats",
+        "begrundelse": "forældresammarbejde, begrundelse",
+        "anbefaling": "forældresammarbejde, anbefaling"
+      },
+      "sammenhængeOgOvergange": {
+        "indsats": "sammenhængeOgOvergang, Vedligeholdelse af indsats",
+        "begrundelse": "sammenhængeOgOvergang, begrundelse",
+        "anbefaling": "sammenhængeOgOvergang, anbefaling"
+      },
+      "kravOmReflektion": {
+        "indsats": "kravOmReflektion, Vedligeholdelse af indsats",
+        "begrundelse": "kravOmReflektion, begrundelse",
+        "anbefaling": "kravOmReflektion, anbefaling"
+      }
+    }
+  },
+  {
+    "name": "13",
+    "venteliste": 13,
+    "webpage": "http://www.13.dk",
+    "tilsyn": {
+      "inklussionOgFællesskab": {
+        "indsats": "inklusionOgFællesskab, Vedligeholdelse af indsats",
+        "begrundelse": "inklusionOgFællesskab, begrundelse",
+        "anbefaling": "inklusionOgFællesskab, anbefaling"
+      },
+      "socialeRelationer": {
+        "indsats": "socialeRelationer, Vedligeholdelse af indsats",
+        "begrundelse": "socialeRelationer, begrundelse",
+        "anbefaling": "socialeRelationer, anbefaling"
+      },
+      "sprogindsatsen": {
+        "indsats": "sprogindsatsen, Vedligeholdelse af indsats",
+        "begrundelse": "sprogindsatsen, begrundelse",
+        "anbefaling": "sprogindsatsen, anbefaling"
+      },
+      "forældresamarbejde": {
+        "indsats": "forældresammarbejde, Vedligeholdelse af indsats",
+        "begrundelse": "forældresammarbejde, begrundelse",
+        "anbefaling": "forældresammarbejde, anbefaling"
+      },
+      "sammenhængeOgOvergange": {
+        "indsats": "sammenhængeOgOvergang, Vedligeholdelse af indsats",
+        "begrundelse": "sammenhængeOgOvergang, begrundelse",
+        "anbefaling": "sammenhængeOgOvergang, anbefaling"
+      },
+      "kravOmReflektion": {
+        "indsats": "kravOmReflektion, Vedligeholdelse af indsats",
+        "begrundelse": "kravOmReflektion, begrundelse",
+        "anbefaling": "kravOmReflektion, anbefaling"
+      }
+    }
+  },
+  {
+    "name": "14",
+    "venteliste": 14,
+    "webpage": "http://www.14.dk",
+    "tilsyn": {
+      "inklussionOgFællesskab": {
+        "indsats": "inklusionOgFællesskab, Vedligeholdelse af indsats",
+        "begrundelse": "inklusionOgFællesskab, begrundelse",
+        "anbefaling": "inklusionOgFællesskab, anbefaling"
+      },
+      "socialeRelationer": {
+        "indsats": "socialeRelationer, Vedligeholdelse af indsats",
+        "begrundelse": "socialeRelationer, begrundelse",
+        "anbefaling": "socialeRelationer, anbefaling"
+      },
+      "sprogindsatsen": {
+        "indsats": "sprogindsatsen, Vedligeholdelse af indsats",
+        "begrundelse": "sprogindsatsen, begrundelse",
+        "anbefaling": "sprogindsatsen, anbefaling"
+      },
+      "forældresamarbejde": {
+        "indsats": "forældresammarbejde, Vedligeholdelse af indsats",
+        "begrundelse": "forældresammarbejde, begrundelse",
+        "anbefaling": "forældresammarbejde, anbefaling"
+      },
+      "sammenhængeOgOvergange": {
+        "indsats": "sammenhængeOgOvergang, Vedligeholdelse af indsats",
+        "begrundelse": "sammenhængeOgOvergang, begrundelse",
+        "anbefaling": "sammenhængeOgOvergang, anbefaling"
+      },
+      "kravOmReflektion": {
+        "indsats": "kravOmReflektion, Vedligeholdelse af indsats",
+        "begrundelse": "kravOmReflektion, begrundelse",
+        "anbefaling": "kravOmReflektion, anbefaling"
+      }
+    }
+  },
+  {
+    "name": "15",
+    "venteliste": 15,
+    "webpage": "http://www.15.dk",
+    "tilsyn": {
+      "inklussionOgFællesskab": {
+        "indsats": "inklusionOgFællesskab, Vedligeholdelse af indsats",
+        "begrundelse": "inklusionOgFællesskab, begrundelse",
+        "anbefaling": "inklusionOgFællesskab, anbefaling"
+      },
+      "socialeRelationer": {
+        "indsats": "socialeRelationer, Vedligeholdelse af indsats",
+        "begrundelse": "socialeRelationer, begrundelse",
+        "anbefaling": "socialeRelationer, anbefaling"
+      },
+      "sprogindsatsen": {
+        "indsats": "sprogindsatsen, Vedligeholdelse af indsats",
+        "begrundelse": "sprogindsatsen, begrundelse",
+        "anbefaling": "sprogindsatsen, anbefaling"
+      },
+      "forældresamarbejde": {
+        "indsats": "forældresammarbejde, Vedligeholdelse af indsats",
+        "begrundelse": "forældresammarbejde, begrundelse",
+        "anbefaling": "forældresammarbejde, anbefaling"
+      },
+      "sammenhængeOgOvergange": {
+        "indsats": "sammenhængeOgOvergang, Vedligeholdelse af indsats",
+        "begrundelse": "sammenhængeOgOvergang, begrundelse",
+        "anbefaling": "sammenhængeOgOvergang, anbefaling"
+      },
+      "kravOmReflektion": {
+        "indsats": "kravOmReflektion, Vedligeholdelse af indsats",
+        "begrundelse": "kravOmReflektion, begrundelse",
+        "anbefaling": "kravOmReflektion, anbefaling"
+      }
+    }
+  },
+  {
+    "name": "16",
+    "venteliste": 16,
+    "webpage": "http://www.16.dk",
+    "tilsyn": {
+      "inklussionOgFællesskab": {
+        "indsats": "inklusionOgFællesskab, Vedligeholdelse af indsats",
+        "begrundelse": "inklusionOgFællesskab, begrundelse",
+        "anbefaling": "inklusionOgFællesskab, anbefaling"
+      },
+      "socialeRelationer": {
+        "indsats": "socialeRelationer, Vedligeholdelse af indsats",
+        "begrundelse": "socialeRelationer, begrundelse",
+        "anbefaling": "socialeRelationer, anbefaling"
+      },
+      "sprogindsatsen": {
+        "indsats": "sprogindsatsen, Vedligeholdelse af indsats",
+        "begrundelse": "sprogindsatsen, begrundelse",
+        "anbefaling": "sprogindsatsen, anbefaling"
+      },
+      "forældresamarbejde": {
+        "indsats": "forældresammarbejde, Vedligeholdelse af indsats",
+        "begrundelse": "forældresammarbejde, begrundelse",
+        "anbefaling": "forældresammarbejde, anbefaling"
+      },
+      "sammenhængeOgOvergange": {
+        "indsats": "sammenhængeOgOvergang, Vedligeholdelse af indsats",
+        "begrundelse": "sammenhængeOgOvergang, begrundelse",
+        "anbefaling": "sammenhængeOgOvergang, anbefaling"
+      },
+      "kravOmReflektion": {
+        "indsats": "kravOmReflektion, Vedligeholdelse af indsats",
+        "begrundelse": "kravOmReflektion, begrundelse",
+        "anbefaling": "kravOmReflektion, anbefaling"
+      }
+    }
+  },
+  {
+    "name": "17",
+    "venteliste": 17,
+    "webpage": "http://www.17.dk",
+    "tilsyn": {
+      "inklussionOgFællesskab": {
+        "indsats": "inklusionOgFællesskab, Vedligeholdelse af indsats",
+        "begrundelse": "inklusionOgFællesskab, begrundelse",
+        "anbefaling": "inklusionOgFællesskab, anbefaling"
+      },
+      "socialeRelationer": {
+        "indsats": "socialeRelationer, Vedligeholdelse af indsats",
+        "begrundelse": "socialeRelationer, begrundelse",
+        "anbefaling": "socialeRelationer, anbefaling"
+      },
+      "sprogindsatsen": {
+        "indsats": "sprogindsatsen, Vedligeholdelse af indsats",
+        "begrundelse": "sprogindsatsen, begrundelse",
+        "anbefaling": "sprogindsatsen, anbefaling"
+      },
+      "forældresamarbejde": {
+        "indsats": "forældresammarbejde, Vedligeholdelse af indsats",
+        "begrundelse": "forældresammarbejde, begrundelse",
+        "anbefaling": "forældresammarbejde, anbefaling"
+      },
+      "sammenhængeOgOvergange": {
+        "indsats": "sammenhængeOgOvergang, Vedligeholdelse af indsats",
+        "begrundelse": "sammenhængeOgOvergang, begrundelse",
+        "anbefaling": "sammenhængeOgOvergang, anbefaling"
+      },
+      "kravOmReflektion": {
+        "indsats": "kravOmReflektion, Vedligeholdelse af indsats",
+        "begrundelse": "kravOmReflektion, begrundelse",
+        "anbefaling": "kravOmReflektion, anbefaling"
+      }
+    }
+  },
+  {
+    "name": "18",
+    "venteliste": 18,
+    "webpage": "http://www.18.dk",
+    "tilsyn": {
+      "inklussionOgFællesskab": {
+        "indsats": "inklusionOgFællesskab, Vedligeholdelse af indsats",
+        "begrundelse": "inklusionOgFællesskab, begrundelse",
+        "anbefaling": "inklusionOgFællesskab, anbefaling"
+      },
+      "socialeRelationer": {
+        "indsats": "socialeRelationer, Vedligeholdelse af indsats",
+        "begrundelse": "socialeRelationer, begrundelse",
+        "anbefaling": "socialeRelationer, anbefaling"
+      },
+      "sprogindsatsen": {
+        "indsats": "sprogindsatsen, Vedligeholdelse af indsats",
+        "begrundelse": "sprogindsatsen, begrundelse",
+        "anbefaling": "sprogindsatsen, anbefaling"
+      },
+      "forældresamarbejde": {
+        "indsats": "forældresammarbejde, Vedligeholdelse af indsats",
+        "begrundelse": "forældresammarbejde, begrundelse",
+        "anbefaling": "forældresammarbejde, anbefaling"
+      },
+      "sammenhængeOgOvergange": {
+        "indsats": "sammenhængeOgOvergang, Vedligeholdelse af indsats",
+        "begrundelse": "sammenhængeOgOvergang, begrundelse",
+        "anbefaling": "sammenhængeOgOvergang, anbefaling"
+      },
+      "kravOmReflektion": {
+        "indsats": "kravOmReflektion, Vedligeholdelse af indsats",
+        "begrundelse": "kravOmReflektion, begrundelse",
+        "anbefaling": "kravOmReflektion, anbefaling"
+      }
+    }
+  },
+  {
+    "name": "19",
+    "venteliste": 19,
+    "webpage": "http://www.19.dk",
+    "tilsyn": {
+      "inklussionOgFællesskab": {
+        "indsats": "inklusionOgFællesskab, Vedligeholdelse af indsats",
+        "begrundelse": "inklusionOgFællesskab, begrundelse",
+        "anbefaling": "inklusionOgFællesskab, anbefaling"
+      },
+      "socialeRelationer": {
+        "indsats": "socialeRelationer, Vedligeholdelse af indsats",
+        "begrundelse": "socialeRelationer, begrundelse",
+        "anbefaling": "socialeRelationer, anbefaling"
+      },
+      "sprogindsatsen": {
+        "indsats": "sprogindsatsen, Vedligeholdelse af indsats",
+        "begrundelse": "sprogindsatsen, begrundelse",
+        "anbefaling": "sprogindsatsen, anbefaling"
+      },
+      "forældresamarbejde": {
+        "indsats": "forældresammarbejde, Vedligeholdelse af indsats",
+        "begrundelse": "forældresammarbejde, begrundelse",
+        "anbefaling": "forældresammarbejde, anbefaling"
+      },
+      "sammenhængeOgOvergange": {
+        "indsats": "sammenhængeOgOvergang, Vedligeholdelse af indsats",
+        "begrundelse": "sammenhængeOgOvergang, begrundelse",
+        "anbefaling": "sammenhængeOgOvergang, anbefaling"
+      },
+      "kravOmReflektion": {
+        "indsats": "kravOmReflektion, Vedligeholdelse af indsats",
+        "begrundelse": "kravOmReflektion, begrundelse",
+        "anbefaling": "kravOmReflektion, anbefaling"
+      }
+    }
+  },
+  {
+    "name": "7Springeren",
+    "venteliste": 999,
+    "webpage": "http://www.hello.dk",
+    "tilsyn": {
+      "inklussionOgFællesskab": {
+        "indsats": "inklusionOgFællesskab, Vedligeholdelse af indsats",
+        "begrundelse": "inklusionOgFællesskab, begrundelse",
+        "anbefaling": "inklusionOgFællesskab, anbefaling"
+      },
+      "socialeRelationer": {
+        "indsats": "socialeRelationer, Vedligeholdelse af indsats",
+        "begrundelse": "socialeRelationer, begrundelse",
+        "anbefaling": "socialeRelationer, anbefaling"
+      },
+      "sprogindsatsen": {
+        "indsats": "sprogindsatsen, Vedligeholdelse af indsats",
+        "begrundelse": "sprogindsatsen, begrundelse",
+        "anbefaling": "sprogindsatsen, anbefaling"
+      },
+      "forældresamarbejde": {
+        "indsats": "forældresammarbejde, Vedligeholdelse af indsats",
+        "begrundelse": "forældresammarbejde, begrundelse",
+        "anbefaling": "forældresammarbejde, anbefaling"
+      },
+      "sammenhængeOgOvergange": {
+        "indsats": "sammenhængeOgOvergang, Vedligeholdelse af indsats",
+        "begrundelse": "sammenhængeOgOvergang, begrundelse",
+        "anbefaling": "sammenhængeOgOvergang, anbefaling"
+      },
+      "kravOmReflektion": {
+        "indsats": "Changed according to test",
+        "begrundelse": "kravOmReflektion, begrundelse",
+        "anbefaling": "kravOmReflektion, anbefaling"
+      }
+    }
+  }
+]

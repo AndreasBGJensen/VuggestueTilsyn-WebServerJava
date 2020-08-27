@@ -9,6 +9,7 @@ import TestCollapseTable from "../TestCollapseTable";
 import NewTable from "../NewTable";
 import SearchBar from "../SearchBar";
 import withStyles from "@material-ui/core/styles/withStyles";
+import TestNewTable from "../TestNewTable";
 
 
 
@@ -32,11 +33,22 @@ const useStyles = theme => ({
 
 
 class WelcomePage extends React.Component {
+
     constructor(props) {
         super(props);
         this.state ={
             searchWord:"",
+            data:[],
         };
+
+
+    }
+
+    componentDidMount() {
+        const apiUrl = 'http://localhost:8080/rest/institution';
+        fetch(apiUrl)
+            .then((response) => response.json())
+            .then((data) => this.setState({data:data}));
     }
 
 /*
@@ -64,7 +76,7 @@ render(){
                         </Grid>
                         <Grid item xs={10} className={classes.centerGrid}>
                             <SearchBar onChange={(value)=>this.updateSearchWord(value)}/>
-                            <NewTable searchword={this.state.searchWord}/>
+                            <TestNewTable searchword={this.state.searchWord} data={this.state.data}/>
                         </Grid>
 
                         <Grid item className={classes.leftNRightGrid} xs={1}>

@@ -82,28 +82,28 @@ function Row(props) {
 
                 </TableCell>
                 <TableCell align="right">
-                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.InklussionOgFællesskab.anbefaling,row.periodiskTilsyn.foerste.InklussionOgFællesskab.begrundelse,"InklussionOgFællesskab",row.name)}>
-                        {<p>{row.periodiskTilsyn.foerste.InklussionOgFællesskab.indsats}</p>}
+                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.tilsyn.inklussionOgFællesskab.anbefaling,row.tilsyn.inklussionOgFællesskab.begrundelse,"InklussionOgFællesskab",row.name)}>
+                        {<p>{row.tilsyn.inklussionOgFællesskab.indsats}</p>}
                     </IconButton>
                 </TableCell>
                 <TableCell align="right">
-                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.SocialeRelationer.anbefaling,row.periodiskTilsyn.foerste.SocialeRelationer.begrundelse,"SocialeRelationer",row.name)}>
-                        {<p>{row.periodiskTilsyn.foerste.SocialeRelationer.indsats}</p>}
+                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.tilsyn.socialeRelationer.anbefaling,row.tilsyn.socialeRelationer.begrundelse,"SocialeRelationer",row.name)}>
+                        {<p>{row.tilsyn.socialeRelationer.indsats}</p>}
                     </IconButton>
                 </TableCell>
                 <TableCell align="right">
-                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.Forældresamarbejde.anbefaling,row.periodiskTilsyn.foerste.Forældresamarbejde.begrundelse,"Forældresamarbejde",row.name)}>
-                        {<p>{row.periodiskTilsyn.foerste.Forældresamarbejde.indsats}</p>}
+                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.tilsyn.forældresamarbejde.anbefaling,row.tilsyn.forældresamarbejde.begrundelse,"Forældresamarbejde",row.name)}>
+                        {<p>{row.tilsyn.forældresamarbejde.indsats}</p>}
                     </IconButton>
                 </TableCell>
                 <TableCell align="right">
-                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.SammenhængOgOvergange.anbefaling,row.periodiskTilsyn.foerste.SammenhængOgOvergange.begrundelse,"SammenhængOgOvergange" ,row.name)}>
-                        { <p>{row.periodiskTilsyn.foerste.SammenhængOgOvergange.indsats}</p>}
+                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.tilsyn.sammenhængeOgOvergange.anbefaling,row.tilsyn.sammenhængeOgOvergange.begrundelse,"SammenhængOgOvergange" ,row.name)}>
+                        { <p>{row.tilsyn.sammenhængeOgOvergange.indsats}</p>}
                     </IconButton>
                 </TableCell>
                 <TableCell align="right">
-                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.periodiskTilsyn.foerste.KravOmReflektion.anbefaling,row.periodiskTilsyn.foerste.KravOmReflektion.begrundelse,"KravOmReflektion",row.name)}>
-                        <p>{row.periodiskTilsyn.foerste.KravOmReflektion.indsats}</p>
+                    <IconButton aria-label="expand row" size="small" onClick={() => onClickRandomButton(row.tilsyn.kravOmReflektion.anbefaling,row.tilsyn.kravOmReflektion.begrundelse,"KravOmReflektion",row.name)}>
+                        <p>{row.tilsyn.kravOmReflektion.indsats}</p>
                     </IconButton>
                 </TableCell>
             </TableRow>
@@ -183,7 +183,7 @@ export default function NewTable(props) {
                     </TableRow>
                 </TableHead>
                 <TableBody>
-                    {jsonObject.payload.filter(name =>{
+                    {props.data.filter(name =>{
                         return name.name.toLowerCase().indexOf(props.searchword.toLowerCase()) >=0;
 
                     }).map((row) => (
