@@ -1,6 +1,8 @@
 package Controller;
 
+import DAO.DatabaseExceptions.DatabaseRetriveContentError;
 import DAO.DatabaseExceptions.DatabaseUpdateException;
+import DAO.DatabaseExceptions.DatabseDeleteException;
 import DAO.IDatabase;
 import DAO.MongoDAO;
 import DTO.Institution;
@@ -17,17 +19,17 @@ public class ControllerProduction extends Controller implements IDatabase {
 
     @Override
     public void saveObject(Object object) {
-
+        database.saveObject(object);
     }
 
     @Override
     public void updateObject(Object object) throws DatabaseUpdateException {
-
+        database.updateObject(object);
     }
 
     @Override
-    public void deleteObject(Object object) {
-
+    public void deleteObject(Object object) throws DatabseDeleteException {
+        database.deleteObject(object);
     }
 
     @Override
@@ -36,7 +38,7 @@ public class ControllerProduction extends Controller implements IDatabase {
     }
 
     @Override
-    public List<Objects> getAllObjecte() {
-        return null;
+    public List<?> getAllObjecte() throws DatabaseRetriveContentError {
+        return database.getAllObjecte();
     }
 }

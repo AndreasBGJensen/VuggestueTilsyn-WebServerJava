@@ -1,7 +1,10 @@
 package rest;
 
+import Configuration.Config;
 import Controller.Controller;
 import Controller.ControllerManager;
+import DAO.DatabaseExceptions.DatabaseRetriveContentError;
+import DTO.Institution;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
@@ -16,13 +19,14 @@ import java.util.List;
 @Path("institution")
 public class InstitutionAPI {
 
+
     ControllerManager manager = new ControllerManager();
     Controller controller = manager.getController();
 
 
     @GET
-    public String getInstitution() {
+    public List<Institution> getInstitution() throws DatabaseRetriveContentError {
 
-        return null;
+        return (List<Institution>) controller.getAllObjecte();
     }
 }

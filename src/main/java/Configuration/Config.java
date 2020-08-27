@@ -3,9 +3,11 @@ package Configuration;
 public class Config {
 
     private static Config config = null;
-    private boolean testMode = true;
+    private static boolean testMode;
 
-    private Config(){ }
+    private Config(){
+
+    }
 
     public static Config getInstance(){
         if(config==null){
@@ -14,12 +16,14 @@ public class Config {
         return config;
     }
 
-    public boolean isTestMode() {
+    public boolean getTestMode() {
+        System.out.println(testMode);
         return testMode;
     }
 
-    public void setTestMode(boolean testMode) {
-        this.testMode = testMode;
+    public void setTestMode(boolean newtestMode) {
+
+        testMode = newtestMode;
     }
 
 

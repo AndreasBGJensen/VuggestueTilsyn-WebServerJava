@@ -9,8 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            Config configuration = Config.getInstance();
-            configuration.setTestMode(true);
+
 
 
             Tomcat tomcat = new Tomcat();
