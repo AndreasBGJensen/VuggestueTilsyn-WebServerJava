@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/InitialScraper/InitialScraper.iml" filepath="$PROJECT_DIR$/InitialScraper/InitialScraper.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/WebServerJava.iml" filepath="$PROJECT_DIR$/.idea/WebServerJava.iml" />
     </modules>
   </component>

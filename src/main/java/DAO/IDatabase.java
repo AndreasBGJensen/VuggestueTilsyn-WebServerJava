@@ -10,11 +10,11 @@ import java.util.Objects;
 
 public interface IDatabase {
 
-    public void saveObject(Object object);
-    public void updateObject(Object object) throws DatabaseUpdateException;
-    public void deleteObject(Object object) throws DatabseDeleteException;
-    public Object getObject(Object object);
-    public List<?> getAllObjecte() throws DatabaseRetriveContentError;
+    void saveObject(Object object);
+    void updateObject(Object object) throws DatabaseUpdateException;
+    void deleteObject(Object object) throws DatabseDeleteException;
+    Object getObject(Object object);
+    List<?> getAllObjecte() throws DatabaseRetriveContentError;
 
 
 }
