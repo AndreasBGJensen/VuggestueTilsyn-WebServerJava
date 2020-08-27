@@ -15,7 +15,7 @@ public class MorphiaConnection {
     private final Datastore handler;
     private final String CONNECTION_STRING = "mongodb+srv://test:test@cluster0.4n5ib.mongodb.net/test?retryWrites=true&w=majority";
 
-    private MorphiaConnection(){
+    public MorphiaConnection(){
         MongoClientURI uri = new MongoClientURI(CONNECTION_STRING);
         MongoClient mongoClient = new MongoClient(uri);
         HashSet<Class> classes = new HashSet<>();
