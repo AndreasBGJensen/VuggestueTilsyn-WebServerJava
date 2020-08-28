@@ -1,11 +1,15 @@
 package DTO;
 
 
+import dev.morphia.annotations.Entity;
+import dev.morphia.annotations.Id;
+
 import java.util.HashMap;
 import java.util.List;
 
+@Entity("district")
 public class DistrictDTO {
-
+    @Id
     int district_id;
     String districtName;
     HashMap<String,String> districtInstitutions;

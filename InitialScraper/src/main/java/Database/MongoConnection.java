@@ -1,5 +1,7 @@
 package Database;
 import DTO.DistrictDTO;
+import DTO.Districts;
+import DTO.URL_DTO;
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 import dev.morphia.Datastore;
@@ -18,6 +20,7 @@ import java.util.HashSet;
             MongoClient mongoClient = new MongoClient(uri);
             HashSet<Class> classes = new HashSet<>();
             classes.add(DistrictDTO.class);
+            classes.add(Districts.class);
             Morphia m = new Morphia(classes);
             handler = m.createDatastore(mongoClient, "testDatabaseForScrapeTesting");
 

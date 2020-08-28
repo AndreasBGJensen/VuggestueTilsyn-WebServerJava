@@ -51,7 +51,7 @@ public class DistrictBuilder {
         HashMap<String, String> districtList = new HashMap<>();
 
         for (Element i : element.children()) {
-            districtList.put(i.text(), i.attr("value"));
+            districtList.put(cleanUpStrig(i.text()), i.attr("value"));
         }
 
         return cleaningHashMap(districtList);
@@ -74,7 +74,7 @@ public class DistrictBuilder {
             for (Element i : info) {
                 String url = baseuRL + i.children().first().attr("href");
                 System.out.println(url);
-                institutionAndUrl.put(i.children().select("a").text(), url);
+                institutionAndUrl.put(cleanUpStrig(i.children().select("a").text()), url);
             }
             return institutionAndUrl;
         }catch (NullPointerException e){
@@ -101,6 +101,14 @@ public class DistrictBuilder {
 
         return hashMap;
     }
+
+    private String cleanUpStrig(String stringToCleanUP){
+        stringToCleanUP = stringToCleanUP.replace(".","");
+
+        return stringToCleanUP;
+    }
+
+
 /*
     public static void main(String[] args) throws IOException {
         DistrictBuilder builder = new DistrictBuilder();

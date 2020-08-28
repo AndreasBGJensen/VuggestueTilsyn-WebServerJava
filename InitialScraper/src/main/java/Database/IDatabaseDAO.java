@@ -1,15 +1,20 @@
 package Database;
 
+import DTO.DistrictDTO;
+import DTO.Districts;
+import DTO.URL_DTO;
+
 import java.util.HashMap;
 
 public interface IDatabaseDAO {
 
-    void saveUrl(String url);
-    void saveDistrict(String districtHtml);
-    HashMap<String, String> getDistricts();
-    void saveDistrictHtml();
-    String getDistrictHtml();
-    String getUrls(String urlName);
+    void saveDistrictDTO(DistrictDTO districtDTO);
+    void saveURL_DTO(URL_DTO url);
+    DistrictDTO getDistrictDTO(String name);
+    Districts getDistrictsByKommune(String name);
+    void saveDistrict(Districts district);
+    Districts updateDistricts(Districts districts);
+    DistrictDTO updateDistrictDTO(DistrictDTO districtDTO);
 
 
 }

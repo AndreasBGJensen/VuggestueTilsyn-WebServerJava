@@ -1,9 +1,6 @@
 package Util;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.Scanner;
 
 public class IOOperations {
@@ -11,10 +8,14 @@ public class IOOperations {
 
     public String readFileContent(String filePath){
         try {
+            String basePath = new File(filePath).getAbsolutePath();
+
+            basePath = basePath.replace("/", "\\");
+            basePath = basePath.replace("'\'", "\\");
 
             StringBuilder stringBuilder = new StringBuilder();
 
-            File myObj = new File(filePath);
+            File myObj = new File(basePath);
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();

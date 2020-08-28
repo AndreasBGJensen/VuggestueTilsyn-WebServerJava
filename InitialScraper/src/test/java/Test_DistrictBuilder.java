@@ -8,8 +8,14 @@ import org.jsoup.select.Elements;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 import java.util.*;
+
+
+//TODO:Fix so that files will be read from relative path. This if for testing on Travis CI.
+
 
 public class Test_DistrictBuilder {
 IOOperations ioOperations = new IOOperations();
@@ -18,7 +24,11 @@ IOOperations ioOperations = new IOOperations();
     */
     @Test
     public void retriveInstitutionListFromADistrict(){
-        String html = ioOperations.readFileContent("C:\\Uddannelse\\Projects\\tilsynmedvuggestuer\\WebServerJava\\InitialScraper\\src\\test\\java\\TestPages\\DistrictPages\\13940.txt");
+
+
+
+//String html = ioOperations.readFileContent("InitialScraper\\src\\test\\java\\TestPages\\DistrictPages\\13940.txt");
+          String html = ioOperations.readFileContent("C:\\Uddannelse\\Projects\\tilsynmedvuggestuer\\WebServerJava\\InitialScraper\\src\\test\\java\\TestPages\\DistrictPages\\13940.txt");
             String baseuRL = URL_DTO.getInstance().getINITIAL_VUGGESTUE_URL();
             Document doc = Jsoup.parse(html);
             Elements elements = doc.getElementsByClass("panel-pane pane-views-row");

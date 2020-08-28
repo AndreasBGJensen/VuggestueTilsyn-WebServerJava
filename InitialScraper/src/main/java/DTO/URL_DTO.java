@@ -1,5 +1,8 @@
 package DTO;
 
+import dev.morphia.annotations.Entity;
+
+@Entity("district")
 public class URL_DTO {
 
     private static URL_DTO url_dto = null;
