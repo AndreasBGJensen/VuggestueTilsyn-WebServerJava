@@ -101,9 +101,11 @@ public class DistrictBuilder {
 
         return hashMap;
     }
-
+/*
     public static void main(String[] args) throws IOException {
         DistrictBuilder builder = new DistrictBuilder();
         builder.buildDistrict();
     }
+
+ */
 }
